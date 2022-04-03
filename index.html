@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+.container {
+  width: 1200px;
+  height: 1200px;
+  background-color:wheat;
+  margin: auto;
+}
+
+.firstparent {
+  width: 1200px;
+  height:350px;
+  background-color:wheat;
+
+}
+.childone {
+  width: 550px;
+  height: 340px;
+  background-color:whitesmoke;
+  display: inline-block;
+  margin-left:50px ;
+   
+
+}
+
+.childone img{
+  width: 510px;
+  height: 280px;
+  margin-left: 17px;
+  margin-top:19px; 
+}
+
+
+.childtwo{
+  width: 550px;
+  height: 340px;
+  background-color:whitesmoke;
+  display: inline-block;
+  position: absolute;
+  
+}
+
+.btn {
+  width: 20%;
+  margin-left:100px;
+}
+
+.btn:hover{
+  background-color: rgb(134, 210, 240);
+}
+
+.h1 {
+  color: blue;
+  font-size: 22px;
+  margin-left: 55px;
+}
+
+.p{
+  color: blue;
+  font-size: 17px;
+  /* text-align: justify; */
+
+ 
+
+}
+.aaa:hover{
+ color:blue;
+}
+
+
+/* //////////////////////////------/mas 2/-----------////////// */
+
+
+.secondparent{
+  height:330px;
+  width: 1200px;
+  background-color:wheat;
+
+ 
+}
+
+
+.firstchild{
+  width: 255px;
+  height: 320px;
+  background-color:whitesmoke;
+  display: inline-block;
+  margin-left:50px;
+   float: left;
+   border: 1PX solid rosybrown;
+}
+
+
+
+.secondchild{
+  width: 422px;
+  height: 320px;
+  background-color:black;
+  display: inline-block;
+  float: left;
+  /* border: 1px solid black; */
+
+
+  
+}
+
+
+.thirdchild{
+  width: 416px;
+  height: 320px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+ 
+  
+}
+
+
+.nav-link{
+  
+  font-size: 18px;
+  color: black;
+  padding: 15px;
+}
+
+
+.nav-link:hover{
+  color: blue;
+}
+
+.iframe{
+  width: 425px;
+  height: 320px;
+}
+
+.img-premiere{
+  width: 415px;
+  height: 320px;
+}
+
+/* --------------------------------------vazogh togh---------------------------- */
+.masque{
+  height:60px;
+  width: 1100px;
+  background-color:rgba(255, 255, 255, 0.623);
+  margin-left:50px;
+
+}
+
+
+/* //////////////////////////------/mas 3/-----------////////// */
+
+#parent {
+  height:350px;
+  width: 1200px;
+  background-color:wheat;
+}
+
+ #blueBox {
+  background-color:wheat;
+  border: 1px solid black;
+  width: 340px;
+  height: 355px;
+  padding: 10px;
+  float: left;
+  display: inline-block;
+  margin-left:50px;
+}
+
+ #skyBox {
+  background-color:wheat;
+  width: 340px;
+  height: 355px;
+  padding: 10px;
+  float: left;
+  display: inline-block;
+  margin-left:15px;
+  border: 1px solid;
+}
+
+#rainBowBox {
+  background-color:wheat;
+  width: 328px;
+  height: 355px;
+  padding: 10px;
+  float: left;
+  display: inline-block;
+  margin-left:15px;
+  border: 1px solid;
+} 
+
+.masin{
+  text-align: center;
+  color:black;
+}
+
+.h1-masin{
+  font-size: 23px;
+  text-align: center;
+  color: black;
+
+}
+
+.img-tatron{
+  width: 322px;
+  height: 125px;
+  margin-left: 8px;
+  
+}
+
+.masin:hover{
+  color: blue;
+}
+
+
+
+.img-charli {
+  width: 322px;
+  height: 155px;
+}
+
+#loginn{
+  width: 320px;
+  height: 20px;
+}
+
+#passwordd{
+  width: 320px;
+  height: 20px;
+}
+
+.button{
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 88px;
+  height: 30px;
+}
+
+
+</style>
+
+
+
+
+
+<div class="container">
+
+  <!-- -----------------------------------------------MAS 1----------------------------- -->
+ <div class="firstparent">
+        
+      <div class="childone">
+        <img src="images/1.jpg" alt="" class="slider-img">
+        <button class="btn" onclick="prev()">Թերթել ձախ</button>
+        <button class="btn" onclick="next()">Թերթել աջ</button>
+      </div>
+             <div class="childtwo">
+          
+              <h1 class="h1">Պատանի Հանդիսատեսի Թատրոն</h1>
+              <p class="p">Երևանի Պատանի հանդիսատեսի թատրոնը բացվել է 1929 թվականի նոյեմբերի 29-ին Տիգրան Շամիրխանյանի գլխավորությամբ՝ Ս. Շչերբակովի և Գ. Սմիրնովի «Պայթյուն» պիեսի բեմադրությամբ։ Առաջին ներկայացումների հեղինակներն են եղել Արմեն Գուլակյանը և Տիգրան Շամիրխանյանը՝ 
+                թատրոնի գեղարվեստական ղեկավարը։ Առաջին թատերաշրջանի ընթացքում թատրոնը բեմադրում է 70 ներկայացում։</p>
+        
+                
+                <a href="#" class="aaa">Պատվիրել Տոմս</a>
+
+
+               </div>
+ 
+
+
+</div>
+
+<!-- ------------------------------------------------MAS 2-------------------------------------------------- -->
+
+
+        <div class="secondparent">
+          <div class="firstchild"> 
+            <br>
+            <a class="nav-link active" aria-current="page" href="#">Գլխավոր</a>
+            <br>
+            <br>
+            <a class="nav-link" href="#">Ներկայացումներ</a>
+            <br>
+            <br>
+            <a class="nav-link" href="#">Կրթական</a>
+            <br>
+            <br>
+            <a class="nav-link" href="">Այցելություն</a>
+            <br>
+            <br>
+            <a class="nav-link" href="#">Մեր դերասանները</a>
+            <br>
+            <br>
+            <a class="nav-link" href="#">Կապ մեզ հետ</a>
+          </nav>
+          </div> 
+
+           <div class="secondchild">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.113989902288!2d44.52069181553558!3d40.18427657939281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abce6ead242c9%3A0x775cd5f31db7b614!2z1YrVodW_1aHVttWrINWA1aHVttWk1avVvdWh1b_VpdW91asg1LnVodW_1oDVuNW2!5e0!3m2!1shy!2s!4v1648665601896!5m2!1shy!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+         </div> 
+
+          &nbsp;<div class="thirdchild"></div>
+          <img src="images/slug-106733.jpg" class="img-premiere">
+
+        </div>
+
+<!-- -------------------------------------------vazogh togh----------------------------------- -->
+        <div class="masque">
+          <marquee class="runLine" direction="right"><h2>Այստեղ կարող էր լինել Ձեր գովազդը</h2></marquee>
+  
+        </div>
+
+
+<br>
+        <!-- --------------------------------------------------MAS 3--------------------------------------------- -->
+
+
+        <div id="parent">
+          <div id="blueBox">
+            <h1 class="h1-masin">Հին հայկական թատրոն</h1>
+            <p class="masin">Հին շրջանի հայկական թատրոն, առաջին վկայությունները թատրոնի մասին Հայկական լեռնաշխարհում՝ Երվանդունիների թագավորության շրջանում (մ.թ.ա. 6-3-րդ դարեր)։</p>
+             <img src="images/tatron2.jpg" class="img-tatron">
+          </div>
+          <div id="skyBox">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="login" placeholder="login" id="loginn">
+            <br>
+            <br>
+            <input type="password" placeholder="password" id="passwordd">
+            <button class="button"id ="myButton">Գրանցվել</button>
+          </div>
+          <div id="rainBowBox">
+            <h1 class="h1-masin">Գալիք Պրեմիերաներ</h1>
+            <a href="#"><p class="masin">Չարլին և շոկոլադի գործարանը</p></a>
+            <a href="#"> <p class="masin">Կատուն շիկացած տանիքին</p></a>
+             <img src="images/charli.jpg" class="img-charli">
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+   
+
+  
+
+
+
+
+ 
+            
+        
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>  
+
+ 
